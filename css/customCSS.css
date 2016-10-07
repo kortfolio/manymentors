@@ -408,3 +408,52 @@ button.donateBtn:hover {
     background-color: #242323;
     position: relative;
 }
+
+.transparentNav{
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 95px;
+    background-color: rgba(255, 255, 255, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(255, 255, 255, 0.6), endColorstr=rgba(255, 255, 255, 0.6));
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.transparentNav ul {
+    list-style-type: none;
+}
+
+.transparentNav a
+{
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.transparentNav a:hover
+{
+    color: #2637ba;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+
+
+.transparentNav li {
+    margin-left: 20px;
+    padding-top:15px;
+    display: inline-block;
+}
+.transparentNavFont{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    font-size: 13px;
+    color: white;
+}

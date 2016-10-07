@@ -162,7 +162,7 @@ a:active {
 }
 
 video {
-	margin-top:500px;
+	margin-top:300px;
 	margin-bottom:-25%;
 	position:relative;
 	top: 50%;
@@ -193,6 +193,7 @@ h1 {
 	div{width:70%;}
 }
 @media screen and (max-device-width: 800px) {
+
 	html { background: url(Images/backgroundImages/brightRoadBg.jpg) #000 no-repeat center center fixed; }
 	#bgvid { display: none; }
 }
@@ -465,6 +466,35 @@ button.sendBtn:hover {
     line-height: 10.4rem;
 }
 
+@media only screen and (max-width: 400px) {
+	body { font-size:90%;}
+}
+
+
+@media (max-width: 1250px) {
+	.blueShiftStick {
+		font-family: "Blueshift Stick W01 Regular";
+		font-size: 9rem;
+		line-height: 8rem;
+	}
+}
+
+@media (max-width: 933px) {
+	.blueShiftStick {
+		font-family: "Blueshift Stick W01 Regular";
+		font-size: 7rem;
+		line-height: 6rem;
+	}
+}
+
+@media (max-width: 741px) {
+	.blueShiftStick {
+		font-family: "Blueshift Stick W01 Regular";
+		font-size: 5rem;
+		line-height: 3rem;
+	}
+}
+
 .mainVideoFont
 
 {
@@ -497,11 +527,34 @@ button.mainVideoBtn:hover {
     transition-duration: 0.4s;
 }
 
+
+
 #polina {
     position: absolute;
-    background: rgba(0,0,0,0.3);
     color: white;
     width: 100%;
     height: 100%;
-    padding-top: 400px;
+    padding-top: 250px;
+}
+.ghost-button {
+	display: inline-block;
+	width: 100px;
+	padding: 8px;
+	color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	transition: background-color 0.2s ease-out,
+	color 0.2s ease-out;
+	border-radius: 7px;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+	background-color: #fff;
+	color: #000;
+	transition: background-color 0.3s ease-in,
+	color 0.3s ease-in;
+	border-radius: 7px;
 }
