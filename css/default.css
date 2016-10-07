@@ -486,6 +486,15 @@ button.mainVideoBtn {
     margin-left: 5px;
     margin-right: 5px;
     border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button.mainVideoBtn:hover {
+    background-color: white  !important;;
+    color: #E89D21;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 #polina {
