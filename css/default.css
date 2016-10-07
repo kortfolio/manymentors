@@ -181,40 +181,13 @@ video {
 	opacity: .5;
 }
 
-#polina {
-	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-	font-weight:100;
-	background: rgba(0,0,0,0.3);
-	color: white;
-	padding: 2rem;
-	width: 33%;
-	margin:2rem;
-	float: right;
-	font-size: 1.2rem;
-}
+
 h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
 	margin-top: 0;
 	letter-spacing: .3rem;
 }
-#polina button {
-	display: block;
-	width: 80%;
-	padding: .4rem;
-	border: none;
-	margin: 1rem auto;
-	font-size: 1.3rem;
-	background: rgba(255,255,255,0.23);
-	color: #fff;
-	border-radius: 3px;
-	cursor: pointer;
-	transition: .3s background;
-}
-#polina button:hover {
-	background: rgba(0,0,0,0.5);
-}
-
 
 @media screen and (max-width: 500px) {
 	div{width:70%;}
@@ -469,3 +442,57 @@ button.sendBtn:hover {
 	opacity:0;
 }
 
+
+@font-face {
+    font-family: "Blueshift Stick W01 Regular";
+    src: url("../fonts/852bd5f5bdb3455b5adde966e54f66d7.eot"); /* IE9*/
+    src: url("../fonts/852bd5f5bdb3455b5adde966e54f66d7.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/852bd5f5bdb3455b5adde966e54f66d7.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/852bd5f5bdb3455b5adde966e54f66d7.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/852bd5f5bdb3455b5adde966e54f66d7.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/852bd5f5bdb3455b5adde966e54f66d7.svg#Blueshift Stick W01 Regular") format("svg"); /* iOS 4.1- */
+}
+.demo{
+    font-family:"Blueshift Stick W01 Regular" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.blueShiftStick
+{
+    font-family:"Blueshift Stick W01 Regular";
+    font-size: 12rem;
+    line-height: 10.4rem;
+}
+
+.mainVideoFont
+
+{
+    font-size: 1.7rem;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+button.mainVideoBtn {
+    background-color: #E89D21 !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    letter-spacing: .1em;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+}
+
+#polina {
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 400px;
+}
