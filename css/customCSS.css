@@ -411,14 +411,17 @@ button.donateBtn:hover {
 
 .transparentNav{
     padding-top: 10px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
     height: 95px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(255, 255, 255, 0.6), endColorstr=rgba(255, 255, 255, 0.6));
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(0, 0, 0, 0.6), endColorstr=rgba(0, 0, 0, 0.6));
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    mouseover-transition: all 2s ease;
+    mouseout-transition: all 1s ease;
+
 }
 
 .transparentNav ul {
@@ -435,12 +438,27 @@ button.donateBtn:hover {
 
 .transparentNav a:hover
 {
-    color: #2637ba;
+    color: #00adef;
     text-decoration: none;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
 
+.transparentNav .ghost-button:hover,
+.ghost-button:active {
+    background-color: #fff;
+    color: #b10003;
+    transition: background-color 0.3s ease-in,
+    color 0.3s ease-in;
+    border-radius: 7px;
+}
+
+.transparentNav .red:hover
+{
+    color: #b10003;
+    transition: background-color 0.3s ease-in,
+    color 0.3s ease-in;
+}
 
 
 

@@ -504,7 +504,7 @@ button.sendBtn:hover {
 }
 
 button.mainVideoBtn {
-    background-color: #E89D21 !important;
+    background-color: #00adef !important;
     text-transform: uppercase;
     font-size: 15px;
     padding-left: 45px;
@@ -522,7 +522,7 @@ button.mainVideoBtn {
 
 button.mainVideoBtn:hover {
     background-color: white  !important;;
-    color: #E89D21;
+    color: #00adef;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
@@ -553,8 +553,13 @@ button.mainVideoBtn:hover {
 .ghost-button:hover,
 .ghost-button:active {
 	background-color: #fff;
-	color: #000;
+	color: #b10003;
 	transition: background-color 0.3s ease-in,
 	color 0.3s ease-in;
 	border-radius: 7px;
+}
+
+.mouseEffect{
+	mouseover-transition: all 2s ease;
+	mouseout-transition: all 1s ease;
 }
