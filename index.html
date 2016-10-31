@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head>
     <link rel="shortcut icon" type="png" href="Images/favicon.png"/>
     <title>ManyMentors | STEM mentoring</title>
@@ -22,38 +21,43 @@
           rel="stylesheet" type="text/css"/>
     <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Open+Sans:400,600,700,800"
           rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <meta charset="UTF-8">
 </head>
 <body>
-<nav class="transparentNav">
+<!--Navigation-->
+<nav class="transparentNav" id="home">
     <img src="Images/manyMentorsLogo.png">
     <ul class="transparentNavFont pull-right">
-        <li><a href="#">Blog</a></li>
+        <li><a href="http://www.manymentors.org/news" target="_blank">Blog</a></li>
         <li><a href="#">NewsLetter</a></li>
-        <li><a href="#">Get Involved</a></li>
-        <li><a href="">
+        <li><a href="#getInvolved">Get Involved</a></li>
+        <li><a href="https://twitter.com/manymentors_org" target="_blank">
             <img src="Images/snsIcons/twitterIcon.png"
                  onmouseover="this.src='Images/snsIcons/twitterIconAfter.png'"
                  onmouseout="this.src='Images/snsIcons/twitterIcon.png'"
                  border="0" alt=""/>
         </a></li>
-        <li><a href="">
+        <li><a href="https://www.instagram.com/manymentors/" target="_blank">
             <img src="Images/snsIcons/instagramIcon.png"
                  onmouseover="this.src='Images/snsIcons/instagramIconAfter.png'"
                  onmouseout="this.src='Images/snsIcons/instagramIcon.png'"
                  border="0" alt=""/>
         </a></li>
-        <li><a href="">
+        <li><a href="https://www.facebook.com/ManyMentors/" target="_blank">
             <img src="Images/snsIcons/facebookIcon.png"
                  onmouseover="this.src='Images/snsIcons/facebookIconAfter.png'"
                  onmouseout="this.src='Images/snsIcons/facebookIcon.png'"
                  border="0" alt=""/>
         </a></li>
-        <li><a class="ghost-button" href="#">Apply</a></li>
-        <li><a href="#" class="red">Login</a></li>
+        <li><a class="ghost-button" href="apply.html">Apply</a></li>
+        <li><a href="https://manymentors.vineup.com/login?redirectURL=%2F" target="_blank" class="red">Login</a></li>
     </ul>
-</nav>
+</nav><!-- End Navigation-->
+
+
 <!-- Main Page -->
+
 <div id="polina" class="center-block">
     <p class="text-center mainVideoFont"> Unleashing the
         <br>
@@ -73,15 +77,32 @@
     <source src="./videos/introVideo.mp4" type="video/mp4">
 
 </video>
+<!--Scroll-Then-Fix Content: Sub Navigation--->
+<nav id="guide-template">
+    <ul class="whiteNav" id="affix">
+        <li><a href="#home" target="_blank">Home</a></li>
+        <li><a href="#about" target="_blank">About</a></li>
+        <li><a href="#ourApproach">our approach</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#mentoringTools">Mentoring Tools</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav><!-- End Navigation-->
+<!--End Sub Navigation-->
 
-<br>
+<!--Need to make..
+0. Apply Page
+1. Donate Page
+2. Mentoring Tools Page.
 
-<p class="anton text-center"><span style="color: #00ADEF">OUR PASSION </span>| <span
-        style="color: #000000">YOUR FUTURE</span></p>
-<div class="container">
+-->
+<!--Intro-->
+<div class="container" id="about">
+    <p class="anton text-center"><span style="color: #00ADEF">OUR PASSION </span>| <span
+            style="color: #000000">YOUR FUTURE</span></p>
 
     <div class="row">
-        <p class="text-center manyMentorsIntroBlack hideme">
+        <p class="text-center manyMentorsIntroBlack">
             Through the power of peer mentoring, <b>ManyMentors</b> will inspire, encourage and support minority and
             female
             students to gain interest in, pursue, and attain degrees in Science, Technology, Engineering and Math
@@ -89,7 +110,10 @@
     </div>
 </div>
 
-<!--Wiseman Quotes-->
+
+<!--End Intro-->
+
+<!--Wise man Quotes-->
 <div class="module text-center top">
     <h2>
                  <span class="quoted">
@@ -203,14 +227,14 @@
                      If opportunity doesn't <br>knock, build a door.
                      </span>
         <br>
-        <b><span class="QuoteAuthor">Milton Berle</span></b>
+        <b><span class="QuoteAuthor"  id="ourApproach">Milton Berle</span></b>
     </h3>
 </div>
 
 <!--Our Apprach-->
 
 
-<div class="row">-
+<div class="row" >
     <p class="titleFont text-center">OUR APPROACH</p>
 </div>
 
@@ -224,8 +248,8 @@
         </p>
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/gpPrDVSGqP0" frameborder="0"
                 allowfullscreen></iframe>
-        <p class="text-center">
-            <button class="biggerBtn">FAQ</button>
+        <p class="text-center" id="getInvolved">
+            <button class="biggerBtn" >FAQ</button>
         </p>
 
     </div>
@@ -236,7 +260,7 @@
 
 <!--Get Involved-->
 
-<div class="module3 text-center top">
+<div class="module3 text-center top" >
     <div class="container">
         <div class="row">
             <p class="titleFont text-center textShadow" style="margin:30px; color:white">Get involved
@@ -390,7 +414,7 @@ Innovative program and excellent site!</span>
 <!--End News -->
 
 <!--Questions -->
-<div class="container">
+<div class="container" id="contact">
     <div class="row">
         <p class="titleFont text-center"> Questions?</p>
         <p class=" text-center">Tel: 860-341-2167 | Email: hello@manymentors.org</p>
@@ -477,5 +501,66 @@ Innovative program and excellent site!</span>
         }
     });
 </script>
+<script>
+    // Smooth Scroll on clicking nav items
+    $('nav a').click(function () {
+        var $href = $(this).attr('href');
+        $('body').stop().animate({
+            scrollTop: $($href).offset().top
+        }, 1000);
+        return false;
+    });
 
+    // back to top
+    $('#toTop a').click(function () {
+        $('body').animate({
+            scrollTop: 0
+        }, 1000);
+        return false;
+    });
+
+    // Parallaxing + add class active on scroll
+    $(document).scroll(function () {
+
+        // parallaxing
+        var $movebg = $(window).scrollTop() * -0.3;
+        $('.portion').css('background-positionY', ($movebg) + 'px');
+
+        // add class active to nav a on scroll
+        var scrollPos = $(document).scrollTop() + 100;
+        $('nav a').each(function () {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href"));
+            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                $('nav a').removeClass("active");
+                currLink.addClass("active");
+            }
+        });
+
+        // changing padding of nav a on scroll
+        /**
+         if (scrollPos > 250) {
+            $('nav a').addClass('small');
+            $('nav img').addClass('move');
+            $('nav span').removeClass('movetext');
+        } else {
+            $('nav a').removeClass('small');
+            $('nav img').removeClass('move');
+            $('nav span').addClass('movetext');
+        }
+         ***/
+
+    });
+</script>
+<script>
+    var header = $("#guide-template");
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= window.innerHeight) {
+            header.addClass("fixed");
+        } else {
+            header.removeClass("fixed");
+        }
+    });
+</script>
 </html>
