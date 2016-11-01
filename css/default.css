@@ -177,7 +177,7 @@ a:active {
 }
 
 video {
-    margin-top: -100px;
+    margin-top: -170px;
     position: relative;
     width: 100%;
     z-index: -100;
@@ -692,7 +692,7 @@ button.applyBtn {
     color: white;
     background-color: #00adef !important;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 17px;
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 7px;
@@ -705,9 +705,12 @@ button.applyBtn {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     border-radius: 15px;
-    font-family: 'Montserrat', sans-serif;
+  /**  font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   */
+    font-family: 'Anton', sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
+
 }
 
 button.applyBtn:hover {
@@ -739,4 +742,18 @@ p.startChapter.pull-right {
     padding-bottom: 5px;
     background-color: #f3f3f3;;
 
+}
+
+.startChapterLink
+{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+   color: #0e83cd;
+}
+
+.startChapterLink:hover{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: #5eb6cd;
+    text-decoration: none;
 }
