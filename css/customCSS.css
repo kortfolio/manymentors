@@ -1,6 +1,5 @@
 .navbar-custom {
 
-
     padding-bottom: 30px;
     background-color: #383838;
     border-color: #272727;
@@ -279,14 +278,15 @@ p.text-center.getInvolvedDescriptionFont {
     font-size: 14px;
 }
 
-.DescriptionFont2{
+.DescriptionFont2 {
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-style: bold;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
+
 .smallInk {
     font-weight: bold;
     color: #00adef;
@@ -337,7 +337,7 @@ p.emailGreetings {
 
 .navbar-custom.shrink {
     padding-bottom: 12px;
-    margin-top:-10px
+    margin-top: -10px
 }
 
 button.donateBtn {
@@ -354,6 +354,7 @@ button.donateBtn {
     font-weight: bold;
     transition: all 0.3s ease 0s;
 }
+
 button.donateBtn:hover {
     background-color: #fbe50d;
     border: none;
@@ -368,6 +369,7 @@ button.donateBtn:hover {
     font-weight: bold;
     transition: all 0.3s ease 0s;
 }
+
 .biggerBtn {
     border-radius: 35px;
     color: #fff;
@@ -417,14 +419,14 @@ button.donateBtn:hover {
     position: relative;
 }
 
-.transparentNav{
+.transparentNav {
     padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
     height: 95px;
     background-color: rgba(0, 0, 0, 0.6);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(0, 0, 0, 0.6), endColorstr=rgba(0, 0, 0, 0.6));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(0, 0, 0, 0.6), endColorstr=rgba(0, 0, 0, 0.6));
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     mouseover-transition: all 2s ease;
@@ -436,16 +438,14 @@ button.donateBtn:hover {
     list-style-type: none;
 }
 
-.transparentNav a
-{
+.transparentNav a {
     color: #ffffff;
     text-decoration: none;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
 
-.transparentNav a:hover
-{
+.transparentNav a:hover {
     color: #00adef;
     text-decoration: none;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -461,21 +461,19 @@ button.donateBtn:hover {
     border-radius: 7px;
 }
 
-.transparentNav .red:hover
-{
+.transparentNav .red:hover {
     color: #b10003;
     transition: background-color 0.3s ease-in,
     color 0.3s ease-in;
 }
 
-
-
 .transparentNav li {
     margin-left: 20px;
-    padding-top:15px;
+    padding-top: 15px;
     display: inline-block;
 }
-.transparentNavFont{
+
+.transparentNavFont {
     font-family: "Open Sans", sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -484,9 +482,16 @@ button.donateBtn:hover {
     color: white;
 }
 
+.whiteNav {
 
-.whiteNav{
-    margin-top:-10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    font-size: 13px;
+    color: white;
+
+    margin-top: -10px;
     width: 100%;
     left: 0;
     text-align: center;
@@ -497,37 +502,45 @@ button.donateBtn:hover {
     z-index: 1;
     top: 0;
     height: 90px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 17px;
-    text-transform: uppercase;
 }
 
 .whiteNav ul {
-    margin:0;
-    padding:0;
-    list-style-type:none;
-    text-align:center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
 }
 
 .whiteNav li {
 
     margin-left: 20px;
-    padding-top:15px;
+    padding-top: 15px;
     display: inline-block;
-    font-color:white;
-    color:white;
+    font-color: white;
+    color: white;
 }
-.whiteNav a
-{
+
+.whiteNav a {
     color: #ffffff;
     text-decoration: none;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
-.whiteNav a:hover
-{
+
+.whiteNav a:hover {
     color: #00adef;
     text-decoration: none;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+}
+
+span.newIndicator {
+    color: #ffffff;
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: #75aaff;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 10px;
 }
