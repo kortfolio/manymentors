@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dd5c629-de65-40cb-83ef-b08d6712f27d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/customCSS.css" afterPath="$PROJECT_DIR$/css/customCSS.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/default.css" afterPath="$PROJECT_DIR$/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startChapter.html" afterPath="$PROJECT_DIR$/startChapter.html" />
     </list>
     <ignored path="ManyMentors.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customCSS.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="customCSS.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/customCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="500" column="16" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
+            <state relative-caret-position="218">
+              <caret line="376" column="26" selection-start-line="376" selection-start-column="24" selection-end-line="376" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -118,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9481">
-              <caret line="499" column="1" selection-start-line="499" selection-start-column="1" selection-end-line="499" selection-end-column="1" />
+            <state relative-caret-position="182">
+              <caret line="647" column="19" selection-start-line="647" selection-start-column="19" selection-end-line="647" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -162,9 +161,9 @@
         <option value="$USER_HOME$/Downloads/Many-Mentors-master/Many-Mentors-master/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/apply.html" />
-        <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/startChapter.html" />
         <option value="$PROJECT_DIR$/css/customCSS.css" />
+        <option value="$PROJECT_DIR$/css/default.css" />
       </list>
     </option>
   </component>
@@ -369,12 +368,12 @@
       <workItem from="1477858666432" duration="5210000" />
       <workItem from="1477911836396" duration="11816000" />
       <workItem from="1478035159517" duration="645000" />
-      <workItem from="1478036173164" duration="3511000" />
+      <workItem from="1478036173164" duration="4878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178979000" />
+    <option name="totallyTimeSpent" value="180346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
@@ -758,18 +757,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/default.css">
+    <entry file="file://$PROJECT_DIR$/css/customCSS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9481">
-          <caret line="499" column="1" selection-start-line="499" selection-start-column="1" selection-end-line="499" selection-end-column="1" />
+        <state relative-caret-position="218">
+          <caret line="376" column="26" selection-start-line="376" selection-start-column="24" selection-end-line="376" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/customCSS.css">
+    <entry file="file://$PROJECT_DIR$/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="500" column="16" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
+        <state relative-caret-position="182">
+          <caret line="647" column="19" selection-start-line="647" selection-start-column="19" selection-end-line="647" selection-end-column="19" />
           <folding />
         </state>
       </provider>

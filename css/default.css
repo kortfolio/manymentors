@@ -645,7 +645,7 @@ button.mainVideoBtn:hover {
 }
 
 #guide-template #affix li a {
-    padding: 8px 0px;
+    padding-top: 20px;
     padding-left: 20px;
     position: relative;
     display: block;
