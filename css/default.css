@@ -757,3 +757,13 @@ p.startChapter.pull-right {
     color: #5eb6cd;
     text-decoration: none;
 }
+
+.none{
+    color:white;
+    text-decoration: none;
+}
+
+.none:hover{
+    color:white;
+    text-decoration:none;
+}
