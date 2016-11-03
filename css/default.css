@@ -767,3 +767,23 @@ p.startChapter.pull-right {
     color:white;
     text-decoration:none;
 }
+
+.blueFont
+{
+
+    color: #00adef;
+}
+
+
+a.blueFont {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: #00adef;
+}
+a.blueFont:hover{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration:none;
+    color: #08d5ff;
+}
+
