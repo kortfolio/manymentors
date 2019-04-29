@@ -1,561 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="shortcut icon" type="png" href="Images/favicon.png"/>
-    <title>ManyMentors | STEM mentoring</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Custom CSS files -->
-    <link rel="stylesheet" type="text/css" href="css/component.css">
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link rel="stylesheet" type="text/css" href="css/customCSS.css">
-    <!-- Web fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="//db.onlinewebfonts.com/c/852bd5f5bdb3455b5adde966e54f66d7?family=Blueshift+Stick+W01+Regular"
-          rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Open+Sans:400,600,700,800"
-          rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <meta charset="UTF-8">
-</head>
-<body>
-<!--Navigation-->
-<nav class="transparentNav" id="home">
-    <img src="Images/manyMentorsLogo.png">
-    <ul class="transparentNavFont pull-right">
-        <li><a href="https://www.manymentors.org/news" target="_blank">Blog</a></li>
-        <li><a href="#">NewsLetter</a></li>
-        <li><a href="#getInvolved">Get Involved</a></li>
-        <li><a href="https://twitter.com/manymentors_org" target="_blank">
-            <img src="Images/snsIcons/twitterIcon.png"
-                 onmouseover="this.src='Images/snsIcons/twitterIconAfter.png'"
-                 onmouseout="this.src='Images/snsIcons/twitterIcon.png'"
-                 border="0" alt=""/>
-        </a></li>
-        <li><a href="https://www.instagram.com/manymentors/" target="_blank">
-            <img src="Images/snsIcons/instagramIcon.png"
-                 onmouseover="this.src='Images/snsIcons/instagramIconAfter.png'"
-                 onmouseout="this.src='Images/snsIcons/instagramIcon.png'"
-                 border="0" alt=""/>
-        </a></li>
-        <li><a href="https://www.facebook.com/ManyMentors/" target="_blank">
-            <img src="Images/snsIcons/facebookIcon.png"
-                 onmouseover="this.src='Images/snsIcons/facebookIconAfter.png'"
-                 onmouseout="this.src='Images/snsIcons/facebookIcon.png'"
-                 border="0" alt=""/>
-        </a></li>
-        <li><a class="ghost-button" href="apply.html">Apply</a></li>
-        <li><a href="https://manymentors.vineup.com/login?redirectURL=%2F" target="_blank" class="red">Login</a></li>
-    </ul>
-</nav><!-- End Navigation-->
-
-
-<!-- Main Page -->
-
-<div id="polina" class="center-block">
-    <p class="text-center mainVideoFont"> Unleashing the
-        <br>
-        <span class="blueShiftStick">
-    STEM Generation
-    </span>
-        <br>
-        through the power of peer mentoring
-        <br>
-        <button class="mainVideoBtn"><a href="apply.html">Apply</a></button>
-        <button class="mainVideoBtn"><a href="donate.html">Donate</a></button>
-    </p>
-</div>
-<video poster="Images/videoPoster.jpg" id="bgvid" playsinline autoplay
-       muted loop>
-    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-    <source src="./videos/introVideo.mp4" type="video/mp4">
-
-</video>
-<!--Scroll-Then-Fix Content: Sub Navigation--->
-<nav id="guide-template">
-    <ul class="whiteNav" id="affix">
-        <li><a href="#home" target="_blank">Home</a></li>
-        <li><a href="#about" target="_blank">About</a></li>
-        <li><a href="#ourApproach">our approach</a></li>
-        <li><a href="donate.html">Donate</a></li>
-        <li><a href="mentoringTools.html">Mentoring Tools</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav><!-- End Navigation-->
-<!--End Sub Navigation-->
-
-<!--Intro-->
-<div class="container" id="about">
-    <p class="anton text-center"><span style="color: #00ADEF">OUR PASSION </span>| <span
+   <head>
+      <link rel="shortcut icon" type="png" href="Images/favicon.png"/>
+      <title>ManyMentors | STEM mentoring</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+         integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <!-- Custom CSS files -->
+      <link rel="stylesheet" type="text/css" href="css/component.css">
+      <link rel="stylesheet" type="text/css" href="css/default.css">
+      <link rel="stylesheet" type="text/css" href="css/customCSS.css">
+      <!-- Web fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+      <link href="//db.onlinewebfonts.com/c/852bd5f5bdb3455b5adde966e54f66d7?family=Blueshift+Stick+W01+Regular"
+         rel="stylesheet" type="text/css"/>
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Open+Sans:400,600,700,800"
+         rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+      <meta charset="UTF-8">
+   </head>
+   <body>
+      <!--Navigation-->
+      <nav class="transparentNav" id="home">
+         <img src="Images/manyMentorsLogo.png">
+         <ul class="transparentNavFont pull-right">
+            <!-- <li><a href="https://www.manymentors.org/news" target="_blank">Blog</a></li> -->
+            <li><a href="#">NewsLetter</a></li>
+            <li><a href="#getInvolved">Get Involved</a></li>
+            <li><a href="https://twitter.com/manymentors_org" target="_blank">
+               <img src="Images/snsIcons/twitterIcon.png"
+                  onmouseover="this.src='Images/snsIcons/twitterIconAfter.png'"
+                  onmouseout="this.src='Images/snsIcons/twitterIcon.png'"
+                  border="0" alt=""/>
+               </a>
+            </li>
+            <li><a href="https://www.instagram.com/manymentors/" target="_blank">
+               <img src="Images/snsIcons/instagramIcon.png"
+                  onmouseover="this.src='Images/snsIcons/instagramIconAfter.png'"
+                  onmouseout="this.src='Images/snsIcons/instagramIcon.png'"
+                  border="0" alt=""/>
+               </a>
+            </li>
+            <li><a href="https://www.facebook.com/ManyMentors/" target="_blank">
+               <img src="Images/snsIcons/facebookIcon.png"
+                  onmouseover="this.src='Images/snsIcons/facebookIconAfter.png'"
+                  onmouseout="this.src='Images/snsIcons/facebookIcon.png'"
+                  border="0" alt=""/>
+               </a>
+            </li>
+            <li><a class="ghost-button" href="apply.html">Apply</a></li>
+            <li><a href="https://manymentors.vineup.com/login?redirectURL=%2F" target="_blank" class="red">Login</a></li>
+         </ul>
+      </nav>
+      <!-- End Navigation-->
+      <!-- Main Page -->
+      <div id="polina" class="center-block">
+         <p class="text-center mainVideoFont"> Unleashing the
+            <br>
+            <span class="blueShiftStick">
+            STEM Generation
+            </span>
+            <br>
+            through the power of peer mentoring
+            <br>
+            <button class="mainVideoBtn"><a href="apply.html">Apply</a></button>
+            <button class="mainVideoBtn"><a href="donate.html">Donate</a></button>
+         </p>
+      </div>
+      <video poster="Images/videoPoster.jpg" id="bgvid" playsinline autoplay
+         muted loop>
+         <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+         <source src="./videos/introVideo.mp4" type="video/mp4">
+      </video>
+      <!--Scroll-Then-Fix Content: Sub Navigation--->
+      <nav id="guide-template">
+         <ul class="whiteNav" id="affix">
+            <li><a href="#home" target="_blank">Home</a></li>
+            <li><a href="#about" target="_blank">About</a></li>
+            <li><a href="#ourApproach">our approach</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="mentoringTools.html">Mentoring Tools</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+      <!-- End Navigation-->
+      <!--End Sub Navigation-->
+      <!--Intro-->
+      <div class="container" id="about">
+         <p class="anton text-center"><span style="color: #00ADEF">OUR PASSION </span>| <span
             style="color: #000000">YOUR FUTURE</span></p>
-
-    <div class="row">
-        <p class="text-center manyMentorsIntroBlack">
-            Through the power of peer mentoring, <b>ManyMentors</b> will inspire, encourage and support minority and
-            female
-            students to gain interest in, pursue, and attain degrees in Science, Technology, Engineering and Math
-            (STEM)!
-    </div>
-</div>
-
-
-<!--End Intro-->
-
-<!--Wise man Quotes-->
-<div class="module text-center top">
-    <h2>
-                 <span class="quoted">
-                     A mentor empowers a person to<br> see a possible future, and<br>believe it can be obtained.
-                     </span>
-        <br>
-        <b><span class="QuoteAuthor">Shawn Hitchcock</span></b>
-    </h2>
-</div>
-
-
-<!-- End Main Page-->
-
-<div class="container">
-    <div class="row">
-        <p class="titleFont text-center">ABOUT</p>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <a href="http://www.manymentors.org/our-team">
-                <img src="Images/aboutPage/people.png" class="img-responsive center-block IntroductionIcons">
-            </a>
-            <p class="text-center DescriptionFont"> Our Team</p>
-        </div>
-        <div class="col-md-4">
-            <a href="http://www.manymentors.org/our-partners">
-                <img src="Images/aboutPage/handshake.png" class="img-responsive center-block IntroductionIcons">
-            </a>
-            <p class="text-center DescriptionFont"> Our Partners</p>
-
-        </div>
-        <div class="col-md-4">
-            <img src="Images/aboutPage/heart.png" class="img-responsive center-block IntroductionIcons">
-            <p class="text-center DescriptionFont">Our Supporters</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <p class="text-left manyMentorsIntro hideme"><b>ManyMentors</b> is a 501(c)(3) nonprofit founded in 2011 to
-            inspire, encourage, & support
-            underrepresented students’ interest in pursuing science, technology, engineering, & math (STEM) fields,
-            &
-            eventual entrance into the STEM workforce. From middle schoolers to young working professionals, we
-            connect
-            individuals to near-age mentors who can make opportunities in STEM become more visible, valuable &
-            viable.
-        </p>
-        <p class="text-center">
-            <button class="biggerBtn"><a href="about.html">Read more</a></button>
-        </p>
-    </div>
-
-    <div class="row">
-        <p class="titleFont text-center mouseEffect">WHY STEM?</p>
-    </div>
-    <div class="row"> <!--STEM Intro Images -->
-        <div class="col-xs-6 col-sm-3">
-            <img src="Images/STEMIconPacks/scienceBefore.png" class="img-responsive center-block"
-                 onmouseover="this.src='Images/STEMIconPacks/scienceAfter.png'"
-                 onmouseout="this.src='Images/STEMIconPacks/scienceBefore.png'"
-                 border="0" alt=""/>
-            <p class="text-center DescriptionFont">Science</p>
-        </div>
-        <div class="col-xs-6 col-sm-3">
-            <img src="Images/STEMIconPacks/technologyBefore.png" class="img-responsive center-block"
-                 onmouseover="this.src='Images/STEMIconPacks/technologyAfter.png'"
-                 onmouseout="this.src='Images/STEMIconPacks/technologyBefore.png'"
-                 border="0" alt=""/>
-            <p class="text-center DescriptionFont">Technology</p>
-        </div>
-        <div class="col-xs-6 col-sm-3">
-            <img src="Images/STEMIconPacks/engineeringBefore.png" class="img-responsive center-block"
-                 onmouseover="this.src='Images/STEMIconPacks/engineeringAfter.png'"
-                 onmouseout="this.src='Images/STEMIconPacks/engineeringBefore.png'"
-                 border="0" alt=""/>
-            <p class="text-center DescriptionFont">Engineering</p>
-        </div>
-        <div class="col-xs-6 col-sm-3">
-            <img src="Images/STEMIconPacks/mathBefore.png" class="img-responsive center-block"
-                 onmouseover="this.src='Images/STEMIconPacks/mathAfter.png'"
-                 onmouseout="this.src='Images/STEMIconPacks/mathBefore.png'"
-                 border="0" alt=""/>
-            <p class="text-center DescriptionFont">Math</p>
-        </div>
-
-    </div>
-
-    <div class="row">
-        <p class="text-left manyMentorsIntro hideme">
-            <b>STEM education</b> creates critical thinkers, increases science literacy, and enables the next generation
-            of
-            innovators.
-            Innovation leads to new products and processes that sustain our economy. This innovation and science
-            literacy depends on
-            a solid knowledge base in the STEM areas.
-        </p>
-        <p class="text-center">
-            <button class="biggerBtn"><a href="whySTEM.html">Read more</a></button>
-        </p>
-    </div>
-
-
-</div><!--End About-->
-
-
-<!--Wiseman Quotes-->
-<div class="module2 text-center top">
-    <h3>
-                 <span class="quoted text-center">
-                     If opportunity doesn't <br>knock, build a door.
-                     </span>
-        <br>
-        <b><span class="QuoteAuthor"  id="ourApproach">Milton Berle</span></b>
-    </h3>
-</div>
-
-<!--Our Apprach-->
-
-
-<div class="row" >
-    <p class="titleFont text-center">OUR APPROACH</p>
-</div>
-
-<div class="container">
-    <div class="row">
-        <p class="text-left manyMentorsIntro hideme">
-            We use a combination of <b>in-person</b> & <b>online</b> mentoring to coordinate STEM volunteer outreach &
-            facilitate
-            one-on-one mentor/mentee matching & communication. Students gain access to resources, discover local
-            opportunities, & develop professional skills in the STEM fields.
-        </p>
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/gpPrDVSGqP0" frameborder="0"
-                allowfullscreen></iframe>
-        <p class="text-center" id="getInvolved">
-            <button class="biggerBtn"><a href="questions.html">FAQ</a></button>
-        </p>
-
-    </div>
-
-    <!--Youtube Video Display-->
-
-</div>
-
-<!--Get Involved-->
-
-<div class="module3 text-center top" >
-    <div class="container">
-        <div class="row">
-            <p class="titleFont text-center textShadow" style="margin:30px; color:white">Get involved
+         <div class="row">
+            <p class="text-center manyMentorsIntroBlack">
+               Through the power of peer mentoring, <b>ManyMentors</b> will inspire, encourage and support minority and
+               female
+               students to gain interest in, pursue, and attain degrees in Science, Technology, Engineering and Math
+               (STEM)!
+         </div>
+      </div>
+      <!--End Intro-->
+      <!--Wise man Quotes-->
+      <div class="module text-center top">
+         <h2>
+            <span class="quoted">
+            A mentor empowers a person to<br> see a possible future, and<br>believe it can be obtained.
+            </span>
+            <br>
+            <b><span class="QuoteAuthor">Shawn Hitchcock</span></b>
+         </h2>
+      </div>
+      <!-- End Main Page-->
+      <div class="container">
+         <div class="row">
+            <p class="titleFont text-center">ABOUT</p>
+         </div>
+         <div class="row">
+            <div class="col-md-4">
+               <a href="https://www.manymentors.org/our-team">
+               <img src="Images/aboutPage/people.png" class="img-responsive center-block IntroductionIcons">
+               </a>
+               <p class="text-center DescriptionFont"> Our Team</p>
+            </div>
+            <div class="col-md-4">
+               <a href="https://www.manymentors.org/our-partners">
+               <img src="Images/aboutPage/handshake.png" class="img-responsive center-block IntroductionIcons">
+               </a>
+               <p class="text-center DescriptionFont"> Our Partners</p>
+            </div>
+            <div class="col-md-4">
+               <img src="Images/aboutPage/heart.png" class="img-responsive center-block IntroductionIcons">
+               <p class="text-center DescriptionFont">Our Supporters</p>
+            </div>
+         </div>
+         <div class="row">
+            <p class="text-left manyMentorsIntro hideme"><b>ManyMentors</b> is a 501(c)(3) nonprofit founded in 2011 to
+               inspire, encourage, & support
+               underrepresented students’ interest in pursuing science, technology, engineering, & math (STEM) fields,
+               &
+               eventual entrance into the STEM workforce. From middle schoolers to young working professionals, we
+               connect
+               individuals to near-age mentors who can make opportunities in STEM become more visible, valuable &
+               viable.
             </p>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <p class="text-center getInvolvedTitleFont">One-on-one Mentoring</p>
-                    <a href="http://www.manymentors.org/our-team">
-                        <img src="Images/applyIcon.png" class="img-responsive center-block IntroductionIcons"
-                             width="170">
-                    </a>
-                    <p class="text-center getInvolvedSubTitleFont">Apply</p>
-
-                    <p class="text-center getInvolvedDescriptionFont"> Complete our application to get started as a
+            <p class="text-center">
+               <button class="biggerBtn"><a href="about.html">Read more</a></button>
+            </p>
+         </div>
+         <div class="row">
+            <p class="titleFont text-center mouseEffect">WHY STEM?</p>
+         </div>
+         <div class="row">
+            <!--STEM Intro Images -->
+            <div class="col-xs-6 col-sm-3">
+               <img src="Images/STEMIconPacks/scienceBefore.png" class="img-responsive center-block"
+                  onmouseover="this.src='Images/STEMIconPacks/scienceAfter.png'"
+                  onmouseout="this.src='Images/STEMIconPacks/scienceBefore.png'"
+                  border="0" alt=""/>
+               <p class="text-center DescriptionFont">Science</p>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+               <img src="Images/STEMIconPacks/technologyBefore.png" class="img-responsive center-block"
+                  onmouseover="this.src='Images/STEMIconPacks/technologyAfter.png'"
+                  onmouseout="this.src='Images/STEMIconPacks/technologyBefore.png'"
+                  border="0" alt=""/>
+               <p class="text-center DescriptionFont">Technology</p>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+               <img src="Images/STEMIconPacks/engineeringBefore.png" class="img-responsive center-block"
+                  onmouseover="this.src='Images/STEMIconPacks/engineeringAfter.png'"
+                  onmouseout="this.src='Images/STEMIconPacks/engineeringBefore.png'"
+                  border="0" alt=""/>
+               <p class="text-center DescriptionFont">Engineering</p>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+               <img src="Images/STEMIconPacks/mathBefore.png" class="img-responsive center-block"
+                  onmouseover="this.src='Images/STEMIconPacks/mathAfter.png'"
+                  onmouseout="this.src='Images/STEMIconPacks/mathBefore.png'"
+                  border="0" alt=""/>
+               <p class="text-center DescriptionFont">Math</p>
+            </div>
+         </div>
+         <div class="row">
+            <p class="text-left manyMentorsIntro hideme">
+               <b>STEM education</b> creates critical thinkers, increases science literacy, and enables the next generation
+               of
+               innovators.
+               Innovation leads to new products and processes that sustain our economy. This innovation and science
+               literacy depends on
+               a solid knowledge base in the STEM areas.
+            </p>
+            <p class="text-center">
+               <button class="biggerBtn"><a href="whySTEM.html">Read more</a></button>
+            </p>
+         </div>
+      </div>
+      <!--End About-->
+      <!--Wiseman Quotes-->
+      <div class="module2 text-center top">
+         <h3>
+            <span class="quoted text-center">
+            If opportunity doesn't <br>knock, build a door.
+            </span>
+            <br>
+            <b><span class="QuoteAuthor"  id="ourApproach">Milton Berle</span></b>
+         </h3>
+      </div>
+      <!--Our Apprach-->
+      <div class="row" >
+         <p class="titleFont text-center">OUR APPROACH</p>
+      </div>
+      <div class="container">
+         <div class="row">
+            <p class="text-left manyMentorsIntro hideme">
+               We use a combination of <b>in-person</b> & <b>online</b> mentoring to coordinate STEM volunteer outreach &
+               facilitate
+               one-on-one mentor/mentee matching & communication. Students gain access to resources, discover local
+               opportunities, & develop professional skills in the STEM fields.
+            </p>
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/gpPrDVSGqP0" frameborder="0"
+               allowfullscreen></iframe>
+            <p class="text-center" id="getInvolved">
+               <button class="biggerBtn"><a href="questions.html">FAQ</a></button>
+            </p>
+         </div>
+         <!--Youtube Video Display-->
+      </div>
+      <!--Get Involved-->
+      <div class="module3 text-center top" >
+         <div class="container">
+            <div class="row">
+               <p class="titleFont text-center textShadow" style="margin:30px; color:white">Get involved
+               </p>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="thumbnail">
+                     <p class="text-center getInvolvedTitleFont">One-on-one Mentoring</p>
+                     <a href="https://www.manymentors.org/our-team">
+                     <img src="Images/applyIcon.png" class="img-responsive center-block IntroductionIcons"
+                        width="170">
+                     </a>
+                     <p class="text-center getInvolvedSubTitleFont">Apply</p>
+                     <p class="text-center getInvolvedDescriptionFont"> Complete our application to get started as a
                         mentor or
-                        mentee!</p>
-
-                    <p class="smallInk">Apply Now ></p>
-
-                </div>
+                        mentee!
+                     </p>
+                     <p class="smallInk">Apply Now ></p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="thumbnail">
+                     <p class="text-center getInvolvedTitleFont">help us <br>grow</p>
+                     <a href="https://www.manymentors.org/our-team">
+                     <img src="Images/helpUsGrowIcon.png" class="img-responsive center-block IntroductionIcons"
+                        width="170">
+                     </a>
+                     <p class="text-center getInvolvedSubTitleFont">start a chapter</p>
+                     <p class="text-center getInvolvedDescriptionFont"> Increase STEM mentoring by<br> starting a local
+                        chapter!
+                     </p>
+                     <p class="smallInk">Here's How ></p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="thumbnail">
+                     <p class="text-center getInvolvedTitleFont">group <br>mentoring</p>
+                     <a href="https://www.manymentors.org/our-team">
+                     <img src="Images/groupMentoringIcon.png" class="img-responsive center-block IntroductionIcons"
+                        width="170">
+                     </a>
+                     <p class="text-center getInvolvedSubTitleFont">request</p>
+                     <p class="text-center getInvolvedDescriptionFont"> Online and in-person mentoring <br>for your
+                        students
+                     </p>
+                     <p class="smallInk">Get Started ></p>
+                  </div>
+               </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="thumbnail">
-
-                    <p class="text-center getInvolvedTitleFont">help us <br>grow</p>
-                    <a href="http://www.manymentors.org/our-team">
-                        <img src="Images/helpUsGrowIcon.png" class="img-responsive center-block IntroductionIcons"
-                             width="170">
-                    </a>
-                    <p class="text-center getInvolvedSubTitleFont">start a chapter</p>
-                    <p class="text-center getInvolvedDescriptionFont"> Increase STEM mentoring by<br> starting a local
-                        chapter!</p>
-
-                    <p class="smallInk">Here's How ></p>
-                </div>
+         </div>
+      </div>
+      <!--Quote by Ghandi-->
+      <div class="moduleGandhi text-center top ">
+         <span class="quoted white hideme">The best way to find yourself is to <br>lose yourself in the service to others</span>
+         <br>
+         <b><span class="authorFont hideme">Gandhi</span></b>
+      </div>
+      <!--End Quote by Ghandi-->
+      <!--Image gallery-->
+      <!--End Image gallery-->
+      <!--testimony-->
+      <div class="module-testimony text-center top">
+         <img src="Images/quote.png" class="img-responsive center-block" style="padding-top:300px">
+         <span class="quoted">I absolutely love ManyMentors.<br>
+         Innovative program and excellent site!</span>
+         <br>
+         <img src="Images/debro.jpg" class="img-circle">
+         <br>
+         <b>Deborah, UConn</b>
+      </div>
+      <div class="module-press text-center top"></div>
+      <div class="module4 text-center top" style="background-color: #237c70; height:200px">
+         <div class="container">
+            <div class="row" style="padding-top:40px;">
+               <!--STEM Intro Images -->
+               <div class="col-xs-6 col-sm-3">
+                  <div class="cf">
+                     <a href="https://www.blackenterprise.com/education/professionals-creating-pipeline-minority-youth-stem/#.VQMxliqII8Y.twitter"
+                        target="_blank">
+                     <img class="bottom img-responsive" src="Images/pressIcons/beLogoAfter.png"/>
+                     <img class="top img-responsive" src="Images/pressIcons/beLogoBefore.png"/>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-xs-6 col-sm-3">
+                  <div class="cf">
+                     <a href="https://blerds.atlantablackstar.com/2014/11/26/manymentors-providing-invaluable-resources-to-minorities-in-stem/"
+                        target="_blank">
+                     <img class="bottom img-responsive" src="Images/pressIcons/blerdsAfter.png"/>
+                     <img class="top img-responsive" src="Images/pressIcons/blerdsBefore.png"/>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-xs-6 col-sm-3">
+                  <div class="cf">
+                     <a href="https://www.utc.com/News/Community/Advancing-STEM-Education/Pages/UTRC-Sponsors-ManyMentors-STEM-program-in-East-Hartford,-Conn--.aspx"
+                        target="_blank">
+                     <img class="bottom img-responsive" src="Images/pressIcons/unitedTechLogoAfter.png"/>
+                     <img class="top img-responsive" src="Images/pressIcons/unitedTechLogoBefore.png"/>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-xs-6 col-sm-3">
+                  <div class="cf">
+                     <a href="https://www.usnews.com/news/articles/2016-06-20/manymentors-patches-stems-leaky-pipeline-with-community"
+                        target="_blank">
+                     <img class="bottom img-responsive" src="Images/pressIcons/usNewsAfter.png"/>
+                     <img class="top img-responsive" src="Images/pressIcons/usNewsBefore.png"/>
+                     </a>
+                  </div>
+               </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <p class="text-center getInvolvedTitleFont">group <br>mentoring</p>
-                    <a href="http://www.manymentors.org/our-team">
-                        <img src="Images/groupMentoringIcon.png" class="img-responsive center-block IntroductionIcons"
-                             width="170">
-                    </a>
-                    <p class="text-center getInvolvedSubTitleFont">request</p>
-                    <p class="text-center getInvolvedDescriptionFont"> Online and in-person mentoring <br>for your
-                        students</p>
-
-                    <p class="smallInk">Get Started ></p>
-                </div>
+         </div>
+      </div>
+      <!-- end testimony -->
+      <!--News -->
+      <div class="newsModule text-center top">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <img src="Images/FlatImac.png" class="img-responsive center-block" style="margin-top:30px;">
+               </div>
+               <div class="col-md-4">
+                  <p class="titleFont text-center textShadow" style="margin-top:120px; color:white">NEWS
+                  </p>
+                  <p class="text-center newsDescriptionStyle">
+                     Check our Blog for the most up-to-date <BR>
+                     news about our outreach activities!
+                  </p>
+                  <button class="blogBtn">Blog</button>
+               </div>
             </div>
-        </div>
-
-    </div>
-
-</div>
-
-
-<!--Quote by Ghandi-->
-<div class="moduleGandhi text-center top ">
-    <span class="quoted white hideme">The best way to find yourself is to <br>lose yourself in the service to others</span>
-    <br>
-    <b><span class="authorFont hideme">Gandhi</span></b>
-</div>
-<!--End Quote by Ghandi-->
-
-<!--Image gallery-->
-<!--End Image gallery-->
-
-<!--testimony-->
-<div class="module-testimony text-center top">
-    <img src="Images/quote.png" class="img-responsive center-block" style="padding-top:300px">
-    <span class="quoted">I absolutely love ManyMentors.<br>
-Innovative program and excellent site!</span>
-    <br>
-    <img src="Images/debro.jpg" class="img-circle">
-    <br>
-    <b>Deborah, UConn</b>
-</div>
-
-
-<div class="module-press text-center top">
-</div>
-<div class="module4 text-center top" style="background-color: #237c70; height:200px">
-    <div class="container">
-        <div class="row" style="padding-top:40px;"> <!--STEM Intro Images -->
-            <div class="col-xs-6 col-sm-3">
-                <div class="cf">
-                    <a href="http://www.blackenterprise.com/education/professionals-creating-pipeline-minority-youth-stem/#.VQMxliqII8Y.twitter"
-                       target="_blank">
-                        <img class="bottom img-responsive" src="Images/pressIcons/beLogoAfter.png"/>
-                        <img class="top img-responsive" src="Images/pressIcons/beLogoBefore.png"/>
-                    </a>
-                </div>
+         </div>
+      </div>
+      <!--End News -->
+      <!--Questions -->
+      <div class="container" id="contact">
+         <div class="row">
+            <p class="titleFont text-center"> Questions?</p>
+            <p class=" text-center">Tel: 860-341-2167 | Email: hello@manymentors.org</p>
+            <p class="emailGreetings text-center">We would love to hear from you!</p>
+         </div>
+         <div class="row" style="margin-left:25%; margin-right:25%;">
+            <form>
+               <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+               </div>
+               <div class="form-group">
+                  <input type="email" class="form-control" id="Email" placeholder="Email">
+               </div>
+               <div class="form-group">
+                  <input type="email" class="form-control" id="su" placeholder="Subject">
+               </div>
+               <div class="form-group">
+                  <textarea class="form-control" rows="4" placeholder="Messages"></textarea>
+               </div>
+               <button class="sendBtn pull-right">send</button>
+            </form>
+         </div>
+      </div>
+      <!--End Questions -->
+      <!--Footer -->
+      <div class="manyMentorsFooter text-center">
+         <div class="container">
+            <div clas="row" style="margin-top:20px;">
+               <img src="Images/snsIcons/twitterIconBlack.png">
+               <img src="Images/snsIcons/facebookIconBlack.png">
+               <img src="Images/snsIcons/instagramIconBlack.png">
+               <span class="hashtagFont">#ManyMentors</span>
             </div>
-            <div class="col-xs-6 col-sm-3">
-                <div class="cf">
-                    <a href="http://blerds.atlantablackstar.com/2014/11/26/manymentors-providing-invaluable-resources-to-minorities-in-stem/"
-                       target="_blank">
-                        <img class="bottom img-responsive" src="Images/pressIcons/blerdsAfter.png"/>
-                        <img class="top img-responsive" src="Images/pressIcons/blerdsBefore.png"/>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-3">
-                <div class="cf">
-                    <a href="http://www.utc.com/News/Community/Advancing-STEM-Education/Pages/UTRC-Sponsors-ManyMentors-STEM-program-in-East-Hartford,-Conn--.aspx"
-                       target="_blank">
-                        <img class="bottom img-responsive" src="Images/pressIcons/unitedTechLogoAfter.png"/>
-                        <img class="top img-responsive" src="Images/pressIcons/unitedTechLogoBefore.png"/>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-3">
-                <div class="cf">
-                    <a href="http://www.usnews.com/news/articles/2016-06-20/manymentors-patches-stems-leaky-pipeline-with-community"
-                       target="_blank">
-                        <img class="bottom img-responsive" src="Images/pressIcons/usNewsAfter.png"/>
-                        <img class="top img-responsive" src="Images/pressIcons/usNewsBefore.png"/>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- end testimony -->
-<!--News -->
-
-<div class="newsModule text-center top">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <img src="Images/FlatImac.png" class="img-responsive center-block" style="margin-top:30px;">
-            </div>
-            <div class="col-md-4">
-                <p class="titleFont text-center textShadow" style="margin-top:120px; color:white">NEWS
-                </p>
-                <p class="text-center newsDescriptionStyle">
-                    Check our Blog for the most up-to-date <BR>
-                    news about our outreach activities!
-                </p>
-                <button class="blogBtn">Blog</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!--End News -->
-
-<!--Questions -->
-<div class="container" id="contact">
-    <div class="row">
-        <p class="titleFont text-center"> Questions?</p>
-        <p class=" text-center">Tel: 860-341-2167 | Email: hello@manymentors.org</p>
-        <p class="emailGreetings text-center">We would love to hear from you!</p>
-    </div>
-    <div class="row" style="margin-left:25%; margin-right:25%;">
-        <form>
-            <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
-            </div>
-            <div class="form-group">
-                <input type="email" class="form-control" id="Email" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <input type="email" class="form-control" id="su" placeholder="Subject">
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="4" placeholder="Messages"></textarea>
-            </div>
-            <button class="sendBtn pull-right">send</button>
-        </form>
-    </div>
-</div>
-<!--End Questions -->
-
-<!--Footer -->
-<div class="manyMentorsFooter text-center">
-    <div class="container">
-        <div clas="row" style="margin-top:20px;">
-            <img src="Images/snsIcons/twitterIconBlack.png">
-            <img src="Images/snsIcons/facebookIconBlack.png">
-            <img src="Images/snsIcons/instagramIconBlack.png">
-            <span class="hashtagFont">#ManyMentors</span>
-        </div>
-        <br>
-        Tel: 860-341-2167 | Email: hello@manymentors.org
-        <br>
-        ^
-        <br>
-        Back to Top
-        <p>
-            ManyMentors is a federally registered 501(c)(3) not-for-profit organization and welcomes donations. All
-            donations
-            are tax deductible.
-        </p>
-        <img src="Images/donationBtn.png" class="block-context">
-        <p class="copyrightFontStyle">© 2016 by ManyMentors.</p>
-    </div>
-</div>
-
-
-<!--End Footer -->
-
-</body>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="js/additionalJS.js"></script>
-<script>
-    $(document).ready(function () {
-        /* Every time the window is scrolled ... */
-        $(window).scroll(function () {
-            /* Check the location of each desired element */
-            $('.hideme').each(function (i) {
-
-                var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-                var bottom_of_window = $(window).scrollTop() + $(window).height();
-                /* If the object is completely visible in the window, fade it it */
-                if (bottom_of_window > bottom_of_object) {
-                    $(this).animate({'opacity': '1'}, 500);
-                }
-            });
-        });
-    });
-</script>
-<script>
-    $(window).scroll(function () {
-        if ($(document).scrollTop() > 50) {
-            $('nav').addClass('shrink');
-        } else {
-            $('nav').removeClass('shrink');
-        }
-    });
-</script>
-<script>
-    // Smooth Scroll on clicking nav items
-    $('nav a').click(function () {
-        var $href = $(this).attr('href');
-        $('body').stop().animate({
-            scrollTop: $($href).offset().top
-        }, 1000);
-        return false;
-    });
-
-    // back to top
-    $('#toTop a').click(function () {
-        $('body').animate({
-            scrollTop: 0
-        }, 1000);
-        return false;
-    });
-
-    // Parallaxing + add class active on scroll
-    $(document).scroll(function () {
-
-        // parallaxing
-        var $movebg = $(window).scrollTop() * -0.3;
-        $('.portion').css('background-positionY', ($movebg) + 'px');
-
-        // add class active to nav a on scroll
-        var scrollPos = $(document).scrollTop() + 100;
-        $('nav a').each(function () {
-            var currLink = $(this);
-            var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                $('nav a').removeClass("active");
-                currLink.addClass("active");
-            }
-        });
-
-        // changing padding of nav a on scroll
-        /**
-         if (scrollPos > 250) {
-            $('nav a').addClass('small');
-            $('nav img').addClass('move');
-            $('nav span').removeClass('movetext');
-        } else {
-            $('nav a').removeClass('small');
-            $('nav img').removeClass('move');
-            $('nav span').addClass('movetext');
-        }
-         ***/
-
-    });
-</script>
-<script>
-    var header = $("#guide-template");
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= window.innerHeight) {
-            header.addClass("fixed");
-        } else {
-            header.removeClass("fixed");
-        }
-    });
-</script>
+            <br>
+            Tel: 860-341-2167 | Email: hello@manymentors.org
+            <br>
+            ^
+            <br>
+            Back to Top
+            <p>
+               ManyMentors is a federally registered 501(c)(3) not-for-profit organization and welcomes donations. All
+               donations
+               are tax deductible.
+            </p>
+            <img src="Images/donationBtn.png" class="block-context">
+            <p class="copyrightFontStyle">© 2016 by ManyMentors.</p>
+         </div>
+      </div>
+      <!--End Footer -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="js/additionalJS.js"></script>
+      <script></script>
+      <script>
+         $(document).ready(function () {
+          /* Every time the window is scrolled ... */
+          $(window).scroll(function () {
+              /* Check the location of each desired element */
+              $('.hideme').each(function (i) {
+         
+                  var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                  var bottom_of_window = $(window).scrollTop() + $(window).height();
+                  /* If the object is completely visible in the window, fade it it */
+                  if (bottom_of_window > bottom_of_object) {
+                      $(this).animate({'opacity': '1'}, 500);
+                  }
+              });
+          });
+         });
+         
+         $(window).scroll(function () {
+          if ($(document).scrollTop() > 50) {
+              $('nav').addClass('shrink');
+          } else {
+              $('nav').removeClass('shrink');
+          }
+         });
+         
+           
+         var header = $("#guide-template");
+         $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+          if (scroll >= window.innerHeight) {
+              header.addClass("fixed");
+          } else {
+              header.removeClass("fixed");
+          }
+         });
+         
+         // Smooth Scroll on clicking nav items
+         $('nav a').click(function () {
+          var $href = $(this).attr('href');
+          $('body').stop().animate({
+              scrollTop: $($href).offset().top
+          }, 1000);
+          return false;
+         });
+         
+         
+         // back to top
+         $('#toTop a').click(function () {
+          $('body').animate({
+              scrollTop: 0
+          }, 1000);
+          return false;
+         });  
+      </script>
+   </body>
 </html>
